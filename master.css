@@ -60,3 +60,33 @@ a{
 	border-bottom: 98vh solid #45A29E;
   margin: 0;
 }
+.banner{
+  font-size: 6em;
+  font-family: 'Anton', sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-left: -1em;
+}
+#line-two{
+  margin-left: -1.4em;
+}
+#line-three{
+  margin-left: -2.2em;
+}
+#line-four{
+  margin-left: -1.8em;
+}
+
+#top{
+  padding-top: 1.5em;
+}
+#down-arrow{
+  margin-left: -0.5em;
+  color: #45A29E;
+  border-radius: 50px;
+  background-color: #C5C6C7;
+}
+#down-arrow:hover{
+  background-color: #45A29E;
+  color: #C5C6C7;
+}
