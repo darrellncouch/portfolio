@@ -14,3 +14,11 @@
 .border-white-top{border-top: 1px solid white}
 .border-white-right{border-right: 1px solid white}
 .border-white-bottom{border-bottom: 1px solid white}
+
+.btn100{
+  width: 100%;
+}
+
+.pad-left-sm{
+  padding-left: .3em;
+}

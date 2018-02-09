@@ -48,38 +48,20 @@ a{
   color: #45A29E;
 }
 
-#section-two{
-  background-color: #45A29E;
-}
-
 .triangle-up {
-	width: 0vw;
-	height: 0vh;
+	width: 0;
+	height: 0;
 	border-left: 85vh solid transparent;
 	border-right: 85vh solid transparent;
 	border-bottom: 98vh solid #45A29E;
   margin: 0;
 }
 .banner{
-  font-size: 6em;
+  font-size: 5em;
   font-family: 'Anton', sans-serif;
-  padding: 0;
-  margin: 0;
-  margin-left: -1em;
-}
-#line-two{
-  margin-left: -1.4em;
-}
-#line-three{
-  margin-left: -2.2em;
-}
-#line-four{
-  margin-left: -1.8em;
 }
 
-#top{
-  padding-top: 1.5em;
-}
+
 #down-arrow{
   margin-left: -0.5em;
   color: #45A29E;
@@ -89,4 +71,39 @@ a{
 #down-arrow:hover{
   background-color: #45A29E;
   color: #C5C6C7;
+}
+#az{
+  height: 40em;
+  width: 20vw;
+}
+#couch{
+  height: 20vh;
+  padding-top: 0;
+  z-index: 10;
+}
+
+/* google fonts */
+.anton{
+  font-family: 'Anton', sans-serif;
+}
+.no-marg{
+  margin: 0;
+}
+.marg-top-sm{
+  margin-top: 2em;
+}
+.marg-top-md{
+  margin-top: 5em;
+}
+.marg-top-lg{
+  margin-top: 10em;
+}
+.marg-left-sm{
+  margin-left: 2em;
+}
+.marg-left-md{
+  margin-left: 5em;
+}
+.marg-left-lg{
+  margin-left: 10em;
 }
