@@ -57,8 +57,9 @@ a{
   margin: 0;
 }
 .banner{
-  font-size: 5em;
+  font-size: 3em;
   font-family: 'Anton', sans-serif;
+  margin-top: .45em;
 }
 
 
@@ -77,9 +78,8 @@ a{
   width: 20vw;
 }
 #couch{
-  height: 20vh;
+  height: 25vh;
   padding-top: 0;
-  z-index: 10;
 }
 
 /* google fonts */
@@ -90,7 +90,7 @@ a{
   margin: 0;
 }
 .marg-top-sm{
-  margin-top: 2em;
+  margin-top: 1em;
 }
 .marg-top-md{
   margin-top: 5em;
@@ -106,4 +106,25 @@ a{
 }
 .marg-left-lg{
   margin-left: 10em;
+}
+
+@media screen and (max-width: 1038px){
+  .banner{
+    margin-top: 0;
+    font-size: 2.75em;
+  }
+}
+
+@media screen and (max-width: 757px){
+  .banner{
+    font-size: 2.5em;
+    margin-top: .5em;
+  }
+}
+
+@media screen and (max-width: 500px){
+  #couch{
+    margin-left: 45%;
+    margin-top: -2em;
+  }
 }
