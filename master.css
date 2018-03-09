@@ -78,8 +78,9 @@ a{
   width: 20vw;
 }
 #couch{
-  height: 25vh;
+  height: 150px;
   padding-top: 0;
+  margin-top: -5em;
 }
 
 /* google fonts */
@@ -122,9 +123,37 @@ a{
   }
 }
 
+@media screen and (max-width: 1300px){
+  #couch{
+    margin-left: 38vw;
+    margin-top: -2em;
+  }
+}
+
+@media screen and (max-width: 1150px){
+  #couch{
+    margin-left: 37vw;
+    margin-top: -2em;
+  }
+}
+
+@media screen and (max-width: 950px){
+  #couch{
+    margin-left: 36vw;
+    margin-top: -2em;
+  }
+}
+
+@media screen and (max-width: 850px){
+  #couch{
+    margin-left: 35vw;
+    margin-top: -2em;
+  }
+}
+
 @media screen and (max-width: 500px){
   #couch{
-    margin-left: 45%;
+    margin-left: 4rem;
     margin-top: -2em;
   }
 }
