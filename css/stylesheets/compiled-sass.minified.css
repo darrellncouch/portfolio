@@ -59,7 +59,7 @@ body {
       transform: translate(-50%, -50%) translateY(0); }
 
 .side-nav {
-  height: 150vh;
+  height: 100%;
   width: 8rem;
   display: inline-block;
   position: absolute;
@@ -191,7 +191,6 @@ a {
     text-align: left; }
 
 .dev-skills {
-  height: 95vh;
   margin: 0 9%;
   padding-top: 4rem;
   color: #45A29E;
@@ -202,6 +201,3 @@ a {
     margin-bottom: 3rem; }
   .dev-skills__img {
     height: 10rem; }
-
-.my-work {
-  height: 100vh; }
