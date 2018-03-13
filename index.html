@@ -3,60 +3,54 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <!-- material icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="./master.css">
-    <link rel="stylesheet" href="./customMaterialize.css">
-    <link rel="stylesheet" href="./darkElectricTheme.css">
+    <link rel="stylesheet" href="./css/stylesheets/compiled-sass.minified.css">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <title>Darrell Couch Portfolio</title>
   </head>
   <body>
-    <div class="row" id="container">
-      <!-- side-nav -->
-      <div class="white-text" id="side-nav">
+
+    <!-- navbar -->
+    <div class="view">
+
+      <div class=" side-nav" id="side-nav">
         <ul class="nav-ul">
-          <a href="#section-one"><li class="nav-item"><i class=" medium material-icons" id="item">home</i></li></a>
-          <a href="#section-two"><li class="nav-item"><i class=" medium material-icons">work</i></li></a>
-          <a href="#section-three"><li class="nav-item"><i class="medium material-icons">code</i></li></a>
+          <a href="#home"><li class="nav-ul__item"><i class="  material-icons nav-ul__icon" id="item">home</i></li></a>
+          <a href="#about-me"> <li class="nav-ul__item"><i class="material-icons nav-ul__icon">person</i></li> </a>
+          <a href="#section-three"><li class="nav-ul__item"><i class=" material-icons nav-ul__icon">code</i></li></a>
+          <a href="#my-work"><li class="nav-ul__item"><i class="  material-icons nav-ul__icon">work</i></li></a>
+          <a href="#contact-me"><li class="nav-ul__item"><i class="  material-icons nav-ul__icon">phone</i></li></a>
         </ul>
+        <div class="side-nav__popout"></div>
       </div>
-      <!-- Primary content container -->
-      <div class="" id="content">
-        <!-- Home -->
-        <div class="section " id="section-one">
-          <div class="row flow-text">
-            <div class="col s12">
-              <p class="banner secondary-text  center-align ">My name is <span class="info-text ">Darrell Couch</span>.</p>
+
+      <!-- primary content -->
+      <div class="primary-content">
+
+        <div id="home">
+          <header class="heading">
+            <div class="heading__logo-box">
+              <h1 class="heading-primary">
+                <span class="heading-primary--main">My name is <span class="heading-primary--name">Darrell Couch</span>.</span>
+                <img class="heading-primary--img" src="./cat_salas.svg" id="couch" alt="">
+                <span class="heading-primary--sub">I'm a full-stack web developer</span>
+              </h1>
             </div>
-            <div class="col s6 l4 couchBox">
-              <img src="./cat_salas.svg" id="couch" alt="">
-            </div>
-            <div class="col s12 ">
-              <p class="banner secondary-text no-marg center-align ">I am a full-stack web developer.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col s10 m4 offset-s1 offset-m4">
-              <a class="waves-effect waves-light btn btn100">Learn more about what I do</a>
-            </div>
-          </div>
+            <button class="btn btn__heading">Learn more about what I do.</button>
+          </header>
         </div>
 
-        <div class="section" id="section-two">
-          section 2
+        <div class="about-me" id="about-me">
+          <h1>Hello World</h1>
         </div>
-        <div class="section" id="section-three">
-          section 3
-          <img src="./Blank_Map_of_Arizona.svg" id="az" alt="">
+
+        <div id="my-work" class="my-work">
+          <h1>my work</h1>
         </div>
+
       </div>
+
     </div>
-
   </body>
 </html>

@@ -1,0 +1,39 @@
+.side-nav {
+  height: 150vh;
+  width: 8rem;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+.nav-ul {
+  background-color: $color-black;
+  height: 100vh;
+
+
+  &__item {
+    padding: .8rem;
+
+
+    &:hover {
+      color: $color-secondary;
+      background-color: $color-info;
+    }
+
+  }
+
+  &__icon {
+    font-size: 6rem;
+  }
+
+}
+
+.nav-ul__item:hover .nav-ul__item--popout {
+  display: inline-block;
+}
+
+a {
+  color: $color-info;
+}

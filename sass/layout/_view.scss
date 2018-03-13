@@ -1,0 +1,12 @@
+.view{
+  display: inline-block;
+}
+
+.primary-content {
+  width: calc(100% - 8rem);
+  margin-left: 8rem;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

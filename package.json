@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "sass": "^1.0.0-beta.5.3"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  },
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/stylesheets/compiled-sass.minified.css --output-style compressed -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darrellncouch/portfolio.git"
+  },
+  "author": "Darrell Couch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darrellncouch/portfolio/issues"
+  },
+  "homepage": "https://github.com/darrellncouch/portfolio#readme"
+}

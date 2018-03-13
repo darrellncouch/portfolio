@@ -1,0 +1,30 @@
+.btn {
+  background-color: $color-info;
+  border: 0;
+  border-color: none;
+  padding: 1rem 5rem;
+  border-radius: 2px;
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.16), 3px 3px 6px rgba(0,0,0,0.23);
+  color: $color-secondary;
+  font-size: 1.75rem;
+  outline: none;
+  transition: all .2s;
+
+  &__heading {
+    margin-top: 5rem;
+    padding: 1rem 15rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    &:hover {
+      transform: translate(-50%, -50%) translateY(-.15rem);
+    }
+
+    &:active {
+      transform: translate(-50%, -50%) translateY(0);
+    }
+
+  }
+
+}

@@ -1,0 +1,27 @@
+.heading-primary {
+  color: $color-secondary;
+  text-transform: uppercase;
+  text-align: center;
+
+  &--main {
+
+    font-family: Anton;
+    display: block;
+    font-size: 10rem;
+    letter-spacing: 1rem;
+
+  }
+
+  &--name {
+    color: $color-info;
+  }
+
+  &--sub {
+    font-family: Anton;
+    display: block;
+    font-size: 8.2rem;
+    letter-spacing: 1rem;
+    margin-top: 35rem;
+  }
+
+}

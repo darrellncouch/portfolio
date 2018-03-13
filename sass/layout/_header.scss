@@ -1,0 +1,20 @@
+.heading {
+
+  height: 100vh;
+  padding-top: 12rem;
+  position: relative;
+
+}
+
+.heading-primary {
+
+  &--img {
+    height: 50rem;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -15rem;
+  }
+
+}
