@@ -1,3 +1,4 @@
+//heading text
 .heading-primary {
   color: $color-secondary;
   text-transform: uppercase;
@@ -22,6 +23,20 @@
     font-size: 8.2rem;
     letter-spacing: 1rem;
     margin-top: 35rem;
+  }
+
+}
+
+//about me text
+.about-me__text-box {
+
+  color: $color-secondary;
+
+  &--title {
+
+    font-family: 'PT Sans', sans-serif;
+    font-size: 6rem;
+    font-weight: 500;
   }
 
 }

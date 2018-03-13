@@ -20,55 +20,99 @@
   }
 
   .col-s1 {
-    width: calc((1 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal}) );
+    width: calc((1 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal}));
   }
 
   .col-s2 {
-    width: calc((2 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal}) ;
+    width: calc((2 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal});
   }
 
   .col-s3 {
-    width: calc((3 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal}) ;
+    width: calc((3 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal});
   }
 
   .col-s4 {
-    width: calc((4 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal}) ;
+    width: calc((4 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal});
   }
 
   .col-s5 {
-    width: calc((5 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal}) ;
+    width: calc((5 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal});
   }
 
   .col-s6 {
-    width: calc((6 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal}) ;
+    width: calc((6 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal});
   }
 
   .col-s7 {
-    width: calc((7 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal}) ;
+    width: calc((7 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal});
   }
 
   .col-s8 {
-    width: calc((8 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal}) ;
+    width: calc((8 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal});
   }
 
   .col-s8 {
-    width: calc((8 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal}) ;
+    width: calc((8 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal});
   }
 
   .col-s9 {
-    width: calc((9 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal}) ;
+    width: calc((9 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal});
   }
 
   .col-s10 {
-    width: calc((10 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal}) ;
+    width: calc((10 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal});
   }
 
   .col-s11 {
-    width: calc((11 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal}) ;
+    width: calc((11 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal});
   }
 
   .col-s12 {
-    width: calc((12 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal}) ;
+    width: calc((12 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal});
+  }
+
+  .offset-s1 {
+    margin-left: calc((1 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal}));
+  }
+
+  .offset-s2 {
+    margin-left: calc((2 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal});
+  }
+
+  .offset-s3 {
+    margin-left: calc((3 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal});
+  }
+
+  .offset-s4 {
+    margin-left: calc((4 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal});
+  }
+
+  .offset-s5 {
+    margin-left: calc((5 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal});
+  }
+
+  .offset-s6 {
+    margin-left: calc((6 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal});
+  }
+
+  .offset-s7 {
+    margin-left: calc((7 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal});
+  }
+
+  .offset-s8 {
+    margin-left: calc((8 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal});
+  }
+
+  .offset-s9 {
+    margin-left: calc((9 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal});
+  }
+
+  .offset-s10 {
+    margin-left: calc((10 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal});
+  }
+
+  .offset-s11 {
+    margin-left: calc((11 * (100% - 8rem - #{$gutter-horizontal}) / 12) - (3 * #{$gutter-horizontal});
   }
 
 }

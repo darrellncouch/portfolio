@@ -14,4 +14,14 @@
   position: relative;
   top: -10rem;
 
+  &__text-box {
+
+    display: inline-block;
+    width: 100vw;
+    position: absolute;
+    top: 35%;
+    z-index: 1;
+    text-align: left;
+  }
+
 }
