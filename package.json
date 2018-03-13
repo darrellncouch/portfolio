@@ -10,7 +10,7 @@
     "node-sass": "^4.7.2"
   },
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/stylesheets/compiled-sass.minified.css --output-style compressed -w"
+    "compile:sass": "node-sass sass/main.scss css/stylesheets/compiled-sass.minified.css -w"
   },
   "repository": {
     "type": "git",
